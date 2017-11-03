@@ -5,11 +5,11 @@ import java.util.ArrayList;
 
 public class Jogo {
     
+    private int idJogo;
     private ArrayList<Integer> DezenasAposta = new ArrayList();
     private ArrayList<Integer> Acertos = new ArrayList();
     private int QntDezenas = 0;
     private int QntAcertos = 0;
-    private int idJogo;
     
     public ArrayList<Integer> getDezenasAposta() {
         return DezenasAposta;
@@ -40,7 +40,7 @@ public class Jogo {
     }
 
     public void setQntAcertos(int Valor) {
-        this.QntAcertos = this.QntAcertos + 1;
+        this.QntAcertos = this.QntAcertos + Valor;
     }
     public int getIdJogo() {
         return idJogo;
