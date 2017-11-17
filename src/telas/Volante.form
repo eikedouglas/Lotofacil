@@ -7,6 +7,17 @@
         <Property name="text" type="java.lang.String" value="jTextField1"/>
       </Properties>
     </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JEditorPane" name="jEditorPane1">
+        </Component>
+      </SubComponents>
+    </Container>
   </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
@@ -119,7 +130,7 @@
                           <Group type="102" alignment="1" attributes="0">
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jButton2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jb_novojogo" alignment="1" min="-2" max="-2" attributes="0"/>
                                   <Group type="102" alignment="1" attributes="0">
                                       <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
@@ -138,16 +149,16 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jPanel4" max="32767" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Component id="lb_qntdez" max="32767" attributes="0"/>
                           <Component id="jLabel3" min="-2" pref="19" max="-2" attributes="0"/>
                       </Group>
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="95" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="jScrollPane1" min="-2" pref="88" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                      <Component id="jb_novojogo" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -171,43 +182,43 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="2" attributes="0">
-                              <Component id="tb_01" alignment="2" min="-2" max="-2" attributes="0"/>
-                              <Component id="tb_06" alignment="2" min="-2" max="-2" attributes="0"/>
-                              <Component id="tb_11" alignment="2" min="-2" max="-2" attributes="0"/>
-                              <Component id="tb_16" alignment="2" min="-2" max="-2" attributes="0"/>
-                              <Component id="tb_21" alignment="2" min="-2" max="-2" attributes="0"/>
+                              <Component id="tb_01" alignment="2" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_06" alignment="2" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_11" alignment="2" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_16" alignment="2" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_21" alignment="2" min="-2" pref="45" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="2" attributes="0">
-                              <Component id="tb_02" alignment="2" min="-2" max="-2" attributes="0"/>
-                              <Component id="tb_07" alignment="2" min="-2" max="-2" attributes="0"/>
-                              <Component id="tb_12" alignment="2" min="-2" max="-2" attributes="0"/>
-                              <Component id="tb_17" alignment="2" min="-2" max="-2" attributes="0"/>
-                              <Component id="tb_22" alignment="2" min="-2" max="-2" attributes="0"/>
+                              <Component id="tb_02" alignment="2" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_07" alignment="2" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_12" alignment="2" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_17" alignment="2" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_22" alignment="2" min="-2" pref="45" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="2" attributes="0">
-                              <Component id="tb_03" alignment="2" min="-2" max="-2" attributes="0"/>
-                              <Component id="tb_08" alignment="2" min="-2" max="-2" attributes="0"/>
-                              <Component id="tb_13" alignment="2" min="-2" max="-2" attributes="0"/>
-                              <Component id="tb_18" alignment="2" min="-2" max="-2" attributes="0"/>
-                              <Component id="tb_23" alignment="2" min="-2" max="-2" attributes="0"/>
+                              <Component id="tb_03" alignment="2" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_08" alignment="2" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_13" alignment="2" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_18" alignment="2" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_23" alignment="2" min="-2" pref="45" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="2" attributes="0">
-                              <Component id="tb_04" alignment="2" min="-2" max="-2" attributes="0"/>
-                              <Component id="tb_09" alignment="2" min="-2" max="-2" attributes="0"/>
-                              <Component id="tb_14" alignment="2" min="-2" max="-2" attributes="0"/>
-                              <Component id="tb_19" alignment="2" min="-2" max="-2" attributes="0"/>
-                              <Component id="tb_24" alignment="2" min="-2" max="-2" attributes="0"/>
+                              <Component id="tb_04" alignment="2" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_09" alignment="2" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_14" alignment="2" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_19" alignment="2" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_24" alignment="2" min="-2" pref="45" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="2" attributes="0">
-                              <Component id="tb_05" alignment="2" min="-2" max="-2" attributes="0"/>
-                              <Component id="tb_10" alignment="2" min="-2" max="-2" attributes="0"/>
-                              <Component id="tb_15" alignment="2" min="-2" max="-2" attributes="0"/>
-                              <Component id="tb_20" alignment="2" min="-2" max="-2" attributes="0"/>
-                              <Component id="tb_25" alignment="2" min="-2" max="-2" attributes="0"/>
+                              <Component id="tb_05" alignment="2" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_10" alignment="2" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_15" alignment="2" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_20" alignment="2" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_25" alignment="2" min="-2" pref="45" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                       </Group>
@@ -218,45 +229,45 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="tb_01" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                              <Component id="tb_03" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                              <Component id="tb_04" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                              <Component id="tb_05" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                              <Component id="tb_02" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                              <Component id="tb_01" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_03" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_04" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_05" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_02" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="tb_07" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                              <Component id="tb_08" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                              <Component id="tb_06" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                              <Component id="tb_09" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                              <Component id="tb_10" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                              <Component id="tb_07" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_08" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_06" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_09" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_10" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="tb_12" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                              <Component id="tb_13" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                              <Component id="tb_14" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                              <Component id="tb_15" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                              <Component id="tb_11" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                              <Component id="tb_12" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_13" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_14" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_15" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_11" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="tb_17" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                              <Component id="tb_18" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                              <Component id="tb_16" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                              <Component id="tb_19" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                              <Component id="tb_20" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                              <Component id="tb_17" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_18" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_16" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_19" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_20" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="tb_21" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                              <Component id="tb_23" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                              <Component id="tb_24" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                              <Component id="tb_25" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                              <Component id="tb_22" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                              <Component id="tb_21" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_23" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_24" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_25" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="tb_22" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace pref="27" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -471,7 +482,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton2">
+            <Component class="javax.swing.JButton" name="jb_novojogo">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="0" green="0" red="ff" type="rgb"/>
@@ -485,8 +496,8 @@
                 <Property name="text" type="java.lang.String" value="Fazer este jogo"/>
               </Properties>
               <Events>
-                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton2MouseEntered"/>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jb_novojogoMouseEntered"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jb_novojogoActionPerformed"/>
               </Events>
             </Component>
             <Container class="javax.swing.JScrollPane" name="jScrollPane1">
@@ -598,22 +609,20 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
+                  <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Component id="jLabel7" max="32767" attributes="0"/>
-                              <EmptySpace min="-2" pref="220" max="-2" attributes="0"/>
+                          <Component id="jButton3" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jPanel6" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="jButton1" min="-2" pref="157" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" attributes="0">
                               <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
-                          <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                              <Component id="jButton1" min="-2" pref="157" max="-2" attributes="0"/>
-                          </Group>
-                          <Component id="jPanel6" max="32767" attributes="0"/>
+                          <Component id="jScrollPane3" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -623,12 +632,14 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jPanel6" max="32767" attributes="0"/>
+                      <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jButton3" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="jLabel8" min="-2" pref="19" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jLabel7" min="-2" pref="228" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jScrollPane3" min="-2" pref="222" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="jButton1" min="-2" pref="45" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -649,17 +660,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Verificar"/>
               </Properties>
-            </Component>
-            <Component class="javax.swing.JLabel" name="jLabel7">
-              <Properties>
-                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
-                    <LineBorder>
-                      <Color PropertyName="color" blue="c6" green="e8" red="c6" type="rgb"/>
-                    </LineBorder>
-                  </Border>
-                </Property>
-              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel8">
               <Properties>
@@ -687,7 +690,6 @@
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="lb_15" min="-2" pref="62" max="-2" attributes="0"/>
                               </Group>
-                              <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="jLabel14" alignment="1" min="-2" max="-2" attributes="0"/>
@@ -704,14 +706,14 @@
                           </Group>
                           <EmptySpace pref="32" max="32767" attributes="0"/>
                       </Group>
+                      <Component id="jPanel7" alignment="0" max="32767" attributes="0"/>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
-                          <Component id="jLabel6" min="-2" pref="19" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
                               <Component id="jLabel9" max="32767" attributes="0"/>
                               <Component id="lb_15" min="-2" pref="19" max="-2" attributes="0"/>
@@ -736,7 +738,7 @@
                               <Component id="jLabel17" min="-2" pref="19" max="-2" attributes="0"/>
                               <Component id="lb_total" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="58" max="32767" attributes="0"/>
+                          <EmptySpace pref="29" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -756,14 +758,6 @@
                       <Font name="Calibri" size="14" style="3"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Com 15 dezenas:"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JLabel" name="jLabel6">
-                  <Properties>
-                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Calibri" size="14" style="3"/>
-                    </Property>
-                    <Property name="text" type="java.lang.String" value="Quantidade de jogos feitos:"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel14">
@@ -859,6 +853,78 @@
                       </Border>
                     </Property>
                   </Properties>
+                </Component>
+                <Container class="javax.swing.JPanel" name="jPanel7">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="66" green="0" red="99" type="rgb"/>
+                    </Property>
+                  </Properties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel6" alignment="0" pref="33" max="32767" attributes="0"/>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jLabel6">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Calibri" size="15" style="3"/>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Quantidade de jogos feitos:"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="jButton3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="99" red="ff" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Calibri" size="18" style="3"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Inserir dezenas sorteadas"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="ta_resultados">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="ta_resultados.setWrapStyleWord(true);&#xa;ta_resultados.setLineWrap(true);"/>
+                  </AuxValues>
                 </Component>
               </SubComponents>
             </Container>

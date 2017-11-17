@@ -11,7 +11,7 @@ public class Main {
         int i = 0;
         
         Loteria loteria = new Loteria();
-        loteria.setDezenasSorteadas();
+        //loteria.setDezenasSorteadas();
         loteria.imprimeArray(loteria.getDezenasSorteadas());
         
         do { 

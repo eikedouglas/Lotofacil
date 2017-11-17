@@ -57,12 +57,12 @@ public class Loteria {
         return DezenasSorteadas;
     }
 
-    public void setDezenasSorteadas(/*ArrayList<Integer> DezenasSorteadas*/) {
-        //this.DezenasSorteadas = DezenasSorteadas;
+    public void setDezenasSorteadas(ArrayList<Integer> DezenasSorteadas) {
+        this.DezenasSorteadas = DezenasSorteadas;
         
-        for (int i = 0; i < 15; i++) {
-            DezenasSorteadas.add(i+1);
-        }
+        //for (int i = 0; i < 15; i++) {
+            //DezenasSorteadas.add(i+1);
+        //}
     }
 
     public ArrayList<Jogo> getListaJogos() {
@@ -75,13 +75,12 @@ public class Loteria {
  
     //metodo calcula a quantidade e quais foram os acertos
     public void calculaAcertosJogo(Jogo jogo){
-        for (int i = 0; i < jogo.getDezenasAposta().size(); i++) {            
+        for (int i = 0; i < jogo.getDezenasAposta().size(); i++) { 
             for (int j = 0; j < DezenasSorteadas.size(); j++) {
                 if (jogo.getDezenasAposta().get(i).equals(DezenasSorteadas.get(j))) {
                     jogo.getAcertos().add(jogo.getDezenasAposta().get(i));
                     jogo.setQntAcertos(1);
-                } else {
-                }
+                } 
             }
         }
     }
@@ -94,14 +93,13 @@ public class Loteria {
     }
   
     public void varreListaJogos(ArrayList<Jogo> lista){
-        for (int i = 0; i < lista.size(); i++) {            
+        for (int i = 0; i < lista.size(); i++) {                                   
             Jogo jogo = lista.get(i);
             calculaAcertosJogo(jogo);
-
+            
             if (jogo.getQntAcertos() == 15) {
                 JogosPremiados.add(jogo);
-                System.out.println("Jogo ID: "+jogo.getIdJogo()+" Premiado com "+jogo.getQntAcertos()+" acertos");
-                
+                System.out.println("Jogo ID: "+jogo.getIdJogo()+" Premiado com "+jogo.getQntAcertos()+" acertos");                
             }    
         }
         System.out.println("Quantidade de Jogos Premiados: "+ JogosPremiados.size());
